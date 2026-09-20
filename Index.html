@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate CRM</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+      color: #1f2937;
+    }
+
+    header {
+      background: #172554;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .welcome {
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      font-size: 16px;
+      color: #6b7280;
+      margin-bottom: 10px;
+    }
+
+    .number {
+      font-size: 30px;
+      font-weight: bold;
+      color: #172554;
+    }
+
+    .section {
+      margin-top: 25px;
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-size: 15px;
+    }
+
+    @media (min-width: 700px) {
+      .cards {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    🏠 Real Estate CRM
+  </header>
+
+  <div class="container">
+
+    <div class="welcome">
+      <h2>Dashboard</h2>
+      <p>Welcome to your Real Estate CRM</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Total Leads</h3>
+        <div class="number">125</div>
+      </div>
+
+      <div class="card">
+        <h3>Site Visits</h3>
+        <div class="number">32</div>
+      </div>
+
+      <div class="card">
+        <h3>Follow-ups</h3>
+        <div class="number">18</div>
+      </div>
+
+      <div class="card">
+        <h3>Bookings</h3>
+        <div class="number">7</div>
+      </div>
+
+      <div class="card">
+        <h3>Projects</h3>
+        <div class="number">12</div>
+      </div>
+
+      <div class="card">
+        <h3>Sales</h3>
+        <div class="number">₹85L</div>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <h2>Quick Actions</h2>
+      <button>Add New Lead</button>
+      <button>Schedule Site Visit</button>
+    </div>
+
+  </div>
+
+</body>
+      </html>
